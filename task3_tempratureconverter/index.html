@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color: white;  font-size: 25px;">Temperature Converter</a>
+            </div>
+        </div>
+    </nav>
+        
+    <form class="abc" onsubmit="main(); return false">
+        <div class="icon"><img src="" alt="" id="ic"></div>
+        <div class = "container">
+            
+            <h1>TEMPRATURE</h1>
+            <h1> CONVERTER</h1>
+          </div>
+        <br><br>
+        <input class="icon" type="number"  id="val" name="temp" style="width: 100px;">&nbsp;&nbsp;
+        <select class="icon" name="op" id="op">
+            <option class="icon" value="fahrenheit">celsius</option>
+            <option class="icon" value="celsius">fahrenheit</option>
+        </select>
+        <br><br>
+        <button class="icon" id="sub" name="temp" style="color: red;">Convert</button> 
+        <h1 id='result'></h1>
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>
